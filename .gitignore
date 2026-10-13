@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration - never commit.
+# Holds your ZEGO AppID/AppSign, SDK path and repository credentials.
+local.properties
+
+# Firebase project config - every developer supplies their own (see README.md).
+app/google-services.json
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android build output
+*.apk
+*.aab
+*.ap_
+*.dex
+output.json
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,162 @@
+[versions]
+agp = "8.7.3"
+appcompat = "1.7.0"
+call = "2.3.0"
+chat = "2.2.0"
+chatVersion = "latest-version"
+comZegocloudZimkit = "VERSION"
+desugar_jdk_libs = "2.1.3"
+firebaseAuth = "23.1.0"
+firebaseAuthKtx = "23.1.0"
+firebaseAuthVersion = "22.0.0"
+firebaseBom = "33.7.0"
+firebaseDatabaseKtx = "21.0.0"
+firebaseFirestoreKtxVersion = "24.9.1"
+githubZego_inapp_chat_uikit_android = "1.0.3"
+googleFirebaseAuth = "21.0.3"
+gson = "2.10.1"
+gsonVersion = "2.10.1"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxCoroutinesAndroid = "1.7.3"
+kotlinxCoroutinesCore = "1.7.2"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.12.01"
+dagger-hilt = "2.51"
+firebaseCrashlyticsBuildtools = "3.0.2"
+hilt-compose = "1.2.0"
+coil = "2.6.0"
+material = "1.12.0"
+material3Android = "1.3.1"
+materialIconsExtended = "1.7.6"
+materialVersion = "1.12.0"
+permissionx = "1.8.0"
+permissionxPermissionx = "1.6.4"
+permissionxVersion = "1.6.0"
+recyclerview = "1.3.2"
+securityCrypto = "1.1.0-alpha06"
+uikit = "2.7.0"
+uikitChat = "1.x.x"
+uikitPrebuilt = "2.x.x"
+uikitPrebuiltCall = "3.1.0"
+uikitPrebuiltCallVersion = "latest-version"
+uikitPrebuiltChat = "3.1.0"
+uikitPrebuiltChatVersion = "your_version"
+uikitPrebuiltVersion = "2.7.0"
+uikitVersion = "3.0.0"
+zego_inapp_chat_uikit_android = "2.7.6"
+zego_inapp_chat_uikit_androidVersion = "latest_version"
+zego_uikit_prebuilt_call_android = "3.9.0"
+zegocloudUikit = "2.0.1"
+zegocloudUikitPrebuiltChat = "<latest_version>"
+zegocloudUikitVersion = "VERSION"
+zegocloudZimkit = "1.5.0"
+zegocloudZimkitVersion = "latest-version"
+zegoExpressEngine = "latest-version"
+zegoUikit = "latest-version"
+zegoUikitPrebuilt = "2.x.x"
+zegouikitAndroid = "latest-version"  # Consider replacing this with a version or removing it if not necessary
+zegoUikitPrebuiltCall = "1.1.0"
+zegoUikitPrebuiltVersion = "2.x.x"
+zegoUIKitPrebuiltConversation = "2.7.6"  # Use the version that is required
+zegoUIKitPrebuiltChat = "2.7.6"
+zimkit = "3.0.0"
+zimkitVersion = "2.0.0"
+firebaseFirestoreKtx = "25.1.1"
+uiDesktop = "1.7.0"
+
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+call = { module = "com.zegocloud.uikit:call", version.ref = "call" }
+chat = { module = "com.zegocloud.uikit:chat", version.ref = "call" }
+chat-v220 = { module = "com.zegocloud.uikit:chat", version.ref = "chat" }
+chat-vlatestversion = { module = "com.zegocloud.uikit:chat", version.ref = "chatVersion" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+firebase-auth-v2103 = { module = "com.google.firebase:firebase-auth", version.ref = "googleFirebaseAuth" }
+firebase-auth-v2200 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+firebase-firestore-ktx-v2491 = { module = "com.google.firebase:firebase-firestore-ktx", version.ref = "firebaseFirestoreKtxVersion" }
+firebase-storage = { module = "com.google.firebase:firebase-storage" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson-v288 = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+guolindev-permissionx = { module = "com.permissionx.guolindev:permissionx", version.ref = "permissionxVersion" }
+im-zego-uikit-prebuilt-call = { module = "im.zego:zego-uikit-prebuilt-call" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "dagger-hilt" }
+dagger-hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "dagger-hilt" }
+dagger-hilt-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-compose" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+permissionx = { module = "com.guolindev.permissionx:permissionx", version.ref = "permissionx" }
+permissionx-v164 = { module = "com.permissionx.guolindev:permissionx", version.ref = "permissionxPermissionx" }
+uikit = { module = "com.zegocloud:uikit", version.ref = "uikit" }
+uikit-chat = { module = "com.zegocloud:uikit-chat", version.ref = "uikitChat" }
+uikit-prebuilt = { module = "com.zegocloud:uikit-prebuilt", version.ref = "uikitPrebuilt" }
+uikit-prebuilt-call = { module = "com.zegocloud:uikit-prebuilt-call", version.ref = "uikitPrebuiltCall" }
+uikit-prebuilt-call-vlatestversion = { module = "com.zegocloud:uikit-prebuilt-call", version.ref = "uikitPrebuiltCallVersion" }
+uikit-prebuilt-chat = { module = "com.zegocloud:uikit-prebuilt-chat", version.ref = "uikitPrebuiltChat" }
+uikit-prebuilt-chat-vlatestversion = { module = "com.zegocloud:uikit-prebuilt-chat", version.ref = "zegocloudUikitPrebuiltChat" }
+uikit-prebuilt-chat-vyourversion = { module = "com.zegocloud:uikit-prebuilt-chat", version.ref = "uikitPrebuiltChatVersion" }
+uikit-prebuilt-v270 = { module = "com.zegocloud:uikit-prebuilt", version.ref = "uikitPrebuiltVersion" }
+uikit-v201 = { module = "com.zegocloud:uikit", version.ref = "zegocloudUikit" }
+uikit-v300 = { module = "com.zegocloud:uikit", version.ref = "uikitVersion" }
+zego-express-engine = { module = "im.zego:zego-express-engine", version.ref = "zegoExpressEngine" }
+zego-uikit = { module = "im.zego:zego-uikit", version.ref = "zegoUikit" }
+zego-uikit-prebuilt = { module = "im.zego.sdk:zego-uikit-prebuilt", version.ref = "zegoUikitPrebuilt" }
+zego-uikit-prebuilt-call = { module = "com.zegocloud.uikit:zego-uikit-prebuilt-call", version.ref = "zegoUikitPrebuiltCall" }
+zego-uikit-prebuilt-chat = { module = "im.zego:zego-uikit-prebuilt-chat" }
+zego_inapp_chat_uikit_android = { module = "com.github.ZEGOCLOUD:zego_inapp_chat_uikit_android", version.ref = "zego_inapp_chat_uikit_android" }
+zego_inapp_chat_uikit_android-v103 = { module = "com.github.ZEGOCLOUD:zego_inapp_chat_uikit_android", version.ref = "githubZego_inapp_chat_uikit_android" }
+zego_inapp_chat_uikit_android-vlatestversion = { module = "com.github.ZEGOCLOUD:zego_inapp_chat_uikit_android", version.ref = "zego_inapp_chat_uikit_androidVersion" }
+zego_uikit_prebuilt_call_android = { module = "com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android", version.ref = "zego_uikit_prebuilt_call_android" }
+zegocloud-uikit = { module = "com.zegocloud:zegocloud-uikit", version.ref = "zegocloudUikitVersion" }
+zegocloud-zego-uikit-prebuilt = { module = "com.zegocloud:zego-uikit-prebuilt", version.ref = "zegoUikitPrebuiltVersion" }
+zegocloud-zimkit = { module = "com.zegocloud.zimkit:zimkit", version.ref = "zimkitVersion" }
+zegouikit-android = { module = "com.zegocloud.uikit:zegouikit-android", version.ref = "zegouikitAndroid" }
+zego_uikit_prebuilt_conversation_android = { module = "com.github.ZEGOCLOUD:zego_uikit_prebuilt_conversation_android", version.ref = "zegoUIKitPrebuiltConversation" }
+zego_uikit_prebuilt_chat_android = { module = "com.github.ZEGOCLOUD:zego_uikit_prebuilt_chat_android", version.ref = "zegoUIKitPrebuiltChat" }
+zimkit = { module = "com.zegocloud:zimkit", version.ref = "zimkit" }
+zimkit-v150 = { module = "com.zegocloud.zimkit:zimkit", version.ref = "zegocloudZimkit" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+zimkit-vlatestversion = { module = "com.zegocloud:zimkit", version.ref = "zegocloudZimkitVersion" }
+zimkit-vversion = { module = "com.zegocloud:zimkit", version.ref = "comZegocloudZimkit" }
+androidx-ui-desktop = { group = "androidx.compose.ui", name = "ui-desktop", version.ref = "uiDesktop" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.7.3" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.0" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version = "2.0.0" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version = "2.51" }
